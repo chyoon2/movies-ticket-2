@@ -75,11 +75,10 @@ function calculateCost(age, theater){
   }
   theater.movies.push("$" + cost);
   console.log(cost)
-
-  print(theater);
+  printTicket(theater);
 }
 
-function print(theater){
+function printTicket(theater){
   const ticketKeys = Object.keys(theater);
   let ticketString = ""
 
